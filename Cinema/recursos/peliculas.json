@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Advenger Infinity War",
+        "description": "Minutos después de los acontecimientos en Thor: Ragnarok, la nave de los sobrevivientes de Asgard es súbitamente atacada por Thanos y su Orden Negra...",
+        "category": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "studio": "Marvel",
+        "rating": "9.5",
+        "img": "https://www.cinemascomics.com/wp-content/uploads/2018/04/poster-imax-vengadores-infinity-war.jpg",
+        "actors": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Scarlett Johansson", "Benedict Cumberbatch", "Tom Holland", "Josh Brolin"],
+        "writers": ["Christopher Markus", "Stephen McFeely"],
+        "year": 2018
+    },
+    {
+        "name": "Avengers: Age of Ultron",
+        "description": "En un país de Europa del Este llamado Sokovia, Los Vengadores conformados por Tony Stark, Steve Rogers, Thor, Bruce Banner...",
+        "category": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "studio": "Marvel",
+        "rating": "9.7",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61ql%2BmHJetL._SY445_.jpg",
+        "actors": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Scarlett Johansson", "Jeremy Renner", "Elizabeth Olsen", "Aaron Taylor-Johnson"],
+        "writers": ["Joss Whedon"],
+        "year": 2015
+    },
+    {
+        "name": "Thor Ragnarok",
+        "description": "Dos años después de la Batalla de Sokovia, Thor ha sido capturado por misteriosas fuerzas enemigas...",
+        "category": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "studio": "Marvel",
+        "rating": "9.6",
+        "img": "https://www.discshop.se/img/front_large/155343/thor_3_ragnarok.jpg",
+        "actors": ["Chris Hemsworth", "Tom Hiddleston", "Cate Blanchett", "Mark Ruffalo", "Tessa Thompson", "Jeff Goldblum", "Karl Urban"],
+        "writers": ["Eric Pearson", "Craig Kyle", "Christopher L. Yost"],
+        "year": 2017
+    },
+    {
+        "name": "Iron Man 3",
+        "description": "En un flashback de 1999 y en plena víspera de Año Nuevo 2000 de en Berna, Suiza, Tony Stark da una conferencia sobre los circuitos integrados...",
+        "category": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "studio": "Marvel",
+        "rating": "9.2",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/8189A%2B9%2Bf9L._SY445_.jpg",
+        "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Guy Pearce", "Don Cheadle", "Rebecca Hall"],
+        "writers": ["Shane Black", "Drew Pearce"],
+        "year": 2013
+    },
+    {
+        "name": "Black Panther",
+        "description": "Siglos atrás, cuando cinco tribus africanas luchaban por un meteorito formado de Vibranium, un metal alienígena...",
+        "category": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "studio": "Marvel",
+        "rating": "9.5",
+        "img": "https://cdn.britannica.com/700x450/36/198336-004-0F77A000.jpg",
+        "actors": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira", "Letitia Wright", "Martin Freeman", "Daniel Kaluuya"],
+        "writers": ["Ryan Coogler", "Joe Robert Cole"],
+        "year": 2018
+    },
+    {
+        "name": "Batman vs Superman",
+        "description": "Bruce Wayne llega a Metrópolis al enterarse de que la ciudad está siendo atacada por kryptonianos...",
+        "category": "Acción | Ciencia Ficción | Aventura",
+        "studio": "DC",
+        "rating": "9.7",
+        "img": "https://ia.media-imdb.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "actors": ["Ben Affleck", "Henry Cavill", "Amy Adams", "Gal Gadot", "Jesse Eisenberg", "Jeremy Irons", "Diane Lane", "Laurence Fishburne"],
+        "writers": ["Chris Terrio", "David S. Goyer"],
+        "year": 2016
+    },
+    {
+        "name": "Batman El Caballero De La Noche",
+        "description": "Nueve meses después de los eventos de la primera película, una banda de ladrones disfrazados con máscaras de payasos llevan a cabo un violento robo...",
+        "category": "Acción | Ciencia Ficción | Aventura",
+        "studio": "DC",
+        "rating": "9.8",
+        "img": "http://allcalidad.com/wp-content/uploads/2016/05/1-542.jpg",
+        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Maggie Gyllenhaal", "Gary Oldman", "Michael Caine", "Morgan Freeman"],
+        "writers": ["Jonathan Nolan", "Christopher Nolan"],
+        "year": 2008
+    },
+    {
+        "name": "Justice League",
+        "description": "Miles de años atrás, en la antigüedad, Steppenwolf y su ejército de parademonios intentaron conquistar y rehacer la Tierra...",
+        "category": "Acción | Ciencia Ficción | Aventura",
+        "studio": "DC",
+        "rating": "9.4",
+        "img": "https://3.bp.blogspot.com/-jzAzp94d4mQ/WNWLpl_3dFI/AAAAAAAA6Wo/9FARrrd6oGQ94_ALej9P9WowuJGfam_jQCLcB/s1600/IMG_2017-03-24%2B22%253A09%253A15.jpg",
+        "actors": ["Ben Affleck", "Gal Gadot", "Jason Momoa", "Ezra Miller", "Ray Fisher", "Henry Cavill", "Amy Adams"],
+        "writers": ["Chris Terrio", "Joss Whedon"],
+        "year": 2017
+    },
+    {
+        "name": "Star Wars 7: El Despertar De La Fuerza",
+        "description": "Hace mucho tiempo en una galaxia muy, muy lejana, Luke Skywalker ha desaparecido...",
+        "category": "Acción | Ciencia Ficción | Aventura",
+        "studio": "Disney",
+        "rating": "9.9",
+        "img": "https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/42299.jpg",
+        "actors": ["Daisy Ridley", "John Boyega", "Adam Driver", "Harrison Ford", "Carrie Fisher", "Oscar Isaac", "Lupita Nyong'o"],
+        "writers": ["J.J. Abrams", "Lawrence Kasdan"],
+        "year": 2015
+    },
+    {
+        "name": "Star Wars 8: Los Ultimos Jedi",
+        "description": "Hace mucho tiempo en una galaxia muy, muy lejana, la PRIMERA ORDEN impera...",
+        "category": "Acción | Ciencia Ficción | Aventura",
+        "studio": "Disney",
+        "rating": "9.7",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/91L2H3pEqcL._SY679_.jpg",
+        "actors": ["Mark Hamill", "Carrie Fisher", "Daisy Ridley", "Adam Driver", "John Boyega", "Oscar Isaac", "Kelly Marie Tran", "Laura Dern"],
+        "writers": ["Rian Johnson"],
+        "year": 2017
+    },
+    {
+        "name": "The Matrix",
+        "description": "Un hacker conocido como Neo descubre que su realidad no es lo que parece y es invitado a unirse a una rebelión...",
+        "category": "Acción | Ciencia Ficción",
+        "studio": "Warner Bros",
+        "rating": "9.8",
+        "img": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg",
+        "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss", "Hugo Weaving", "Joe Pantoliano"],
+        "writers": ["Lana Wachowski", "Lilly Wachowski"],
+        "year": 1999
+    }
+]

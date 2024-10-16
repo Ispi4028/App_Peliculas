@@ -1,0 +1,6 @@
+modelo/__pycache__
+.venv
+.idea
+vista/__pycache__
+controlador/__pycache__
+recursos/img/__pycache__
