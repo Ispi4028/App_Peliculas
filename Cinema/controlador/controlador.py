@@ -58,15 +58,17 @@ class Ventanana(QMainWindow):
     def enviar_busqueda_por_actores(self):
         actor1 = self.__ui.actor.text().strip()
         actor2 = self.__ui.actor2.text().strip()
+        if actor1 == actor2:
+            QMessageBox.warning(self, "Error", "Por favor, seleccione dos actores diferentes.")
+            return
         if not actor1 or not actor2:
-            QMessageBox.warning(self, "Error", "Por favor, ingrese los nombres de dos actores para buscar.")
+            QMessageBox.warning(self, "Error", "Por favor, seleccione dos actores para buscar.")
             return
         peliculas = buscar_peliculas_por_actores(self.__catalogo, actor1, actor2)
         if peliculas:
             self.mostrar_resultados_peliculas(self.__ui.lista_de_peliculas_actores, peliculas)
         else:
-            QMessageBox.information(self, "Sin Resultados", "No se encontraron películas con esos actores.")
-
+            QMessageBox.information(self, "Sin Resultados")
     def mostrar_resultados_peliculas(self, list_widget, peliculas):
         list_widget.clear()
         for pelicula in peliculas:

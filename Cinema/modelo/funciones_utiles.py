@@ -2,9 +2,23 @@ import json
 from modelo.pelicula import Pelicula
 
 def cargar_catalogo_desde_json(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    return [Pelicula(**entry) for entry in data]
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            datos = json.load(file)
+        catalogo = []
+        for entrada in datos:
+            try:
+                pelicula = Pelicula(**entrada)
+                catalogo.append(pelicula)
+            except TypeError as e:
+                print(f"Error en el formato del dato: {entrada}, Error: {e}")
+        return catalogo
+    except FileNotFoundError as e:
+        print(f"Archivo no encontrado: {file_path}, Error: {e}")
+    except json.JSONDecodeError as e:
+        print(f"Error al decodificar el JSON: {file_path}, Error: {e}")
+    return []
+
 
 def buscar_peliculas_por_titulo(catalogo, titulo):
     return [pelicula for pelicula in catalogo

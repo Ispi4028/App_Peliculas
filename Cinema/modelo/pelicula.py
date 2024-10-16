@@ -1,16 +1,16 @@
 from modelo.actor import Actor
 
 class Pelicula:
-    def __init__(self, name, description, category, studio, rating, img, actors, writers, year):
-        self.__name = name
-        self.__description = description
-        self.__category = category
-        self.__studio = studio
-        self.__rating = rating
-        self.__img = img
-        self.__actors = [Actor(actor) for actor in actors]
-        self.__writers = writers
-        self.__year = year
+    def __init__(self, name=None, description=None, category=None, studio=None, rating=None, img=None, actors=None, writers=None, year=None):
+        self.__name = name or "Desconocido"
+        self.__description = description or "Sin descripción"
+        self.__category = category or "Desconocido"
+        self.__studio = studio or "Desconocido"
+        self.__rating = rating or "0.0"
+        self.__img = img or ""
+        self.__actors = [Actor(actor) for actor in actors] if actors else []
+        self.__writers = writers if writers else []
+        self.__year = year or "Desconocido"
 
     @property
     def name(self):
