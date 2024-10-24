@@ -1,0 +1,123 @@
+[
+    {
+        "titulo": "Advenger Infinity War",
+        "descripcion": "Minutos después de los acontecimientos en Thor: Ragnarok, la nave de los sobrevivientes de Asgard es súbitamente atacada por Thanos y su Orden Negra...",
+        "categoria": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "estudio": "Marvel",
+        "calificacion": "9.5",
+        "portada": "https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+        "actores": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Scarlett Johansson", "Benedict Cumberbatch", "Tom Holland", "Josh Brolin"],
+        "escritores": ["Christopher Markus", "Stephen McFeely"],
+        "anio": 2018
+    },
+    {
+        "titulo": "Avengers: Age of Ultron",
+        "descripcion": "En un país de Europa del Este llamado Sokovia, Los Vengadores conformados por Tony Stark, Steve Rogers, Thor, Bruce Banner...",
+        "categoria": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "estudio": "Marvel",
+        "calificacion": "9.7",
+        "portada": "https://image.tmdb.org/t/p/original/71wSx6MQm8EbMNDi3vVaD8nD9SL.jpg",
+        "actores": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Scarlett Johansson", "Jeremy Renner", "Elizabeth Olsen", "Aaron Taylor-Johnson"],
+        "escritores": ["Joss Whedon"],
+        "anio": 2015
+    },
+    {
+        "titulo": "Thor Ragnarok",
+        "descripcion": "Dos años después de la Batalla de Sokovia, Thor ha sido capturado por misteriosas fuerzas enemigas...",
+        "categoria": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "estudio": "Marvel",
+        "calificacion": "9.6",
+        "portada": "https://image.tmdb.org/t/p/original/sgVe7blGP5P71STv2TBXmO86qPo.jpg",
+        "actores": ["Chris Hemsworth", "Tom Hiddleston", "Cate Blanchett", "Mark Ruffalo", "Tessa Thompson", "Jeff Goldblum", "Karl Urban"],
+        "escritores": ["Eric Pearson", "Craig Kyle", "Christopher L. Yost"],
+        "anio": 2017
+    },
+    {
+        "titulo": "Iron Man 3",
+        "descripcion": "En un flashback de 1999 y en plena víspera de Año Nuevo 2000 de en Berna, Suiza, Tony Stark da una conferencia sobre los circuitos integrados...",
+        "categoria": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "estudio": "Marvel",
+        "calificacion": "9.2",
+        "portada": "https://image.tmdb.org/t/p/original/yZxImkHG42n8VwGijUFozRO2vry.jpg",
+        "actores": ["Robert Downey Jr.", "Gwyneth Paltrow", "Guy Pearce", "Don Cheadle", "Rebecca Hall"],
+        "escritores": ["Shane Black", "Drew Pearce"],
+        "anio": 2013
+    },
+    {
+        "titulo": "Black Panther",
+        "descripcion": "Siglos atrás, cuando cinco tribus africanas luchaban por un meteorito formado de Vibranium, un metal alienígena...",
+        "categoria": "Acción | Ciencia Ficción | Aventura | Comedia",
+        "estudio": "Marvel",
+        "calificacion": "9.5",
+        "portada": "https://image.tmdb.org/t/p/original/iOlnaCl3RybBfz3j013fbOUh2aW.jpg",
+        "actores": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira", "Letitia Wright", "Martin Freeman", "Daniel Kaluuya"],
+        "escritores": ["Ryan Coogler", "Joe Robert Cole"],
+        "anio": 2018
+    },
+    {
+        "titulo": "Batman vs Superman",
+        "descripcion": "Bruce Wayne llega a Metrópolis al enterarse de que la ciudad está siendo atacada por kryptonianos...",
+        "categoria": "Acción | Ciencia Ficción | Aventura",
+        "estudio": "DC",
+        "calificacion": "9.7",
+        "portada": "https://image.tmdb.org/t/p/original/mS3t9puIjLKgoex82cu9d6G0835.jpg",
+        "actores": ["Ben Affleck", "Henry Cavill", "Amy Adams", "Gal Gadot", "Jesse Eisenberg", "Jeremy Irons", "Diane Lane", "Laurence Fishburne"],
+        "escritores": ["Chris Terrio", "David S. Goyer"],
+        "anio": 2016
+    },
+    {
+        "titulo": "Batman El Caballero De La Noche",
+        "descripcion": "Nueve meses después de los eventos de la primera película, una banda de ladrones disfrazados con máscaras de payasos llevan a cabo un violento robo...",
+        "categoria": "Acción | Ciencia Ficción | Aventura",
+        "estudio": "DC",
+        "calificacion": "9.8",
+        "portada": "https://image.tmdb.org/t/p/original/tSIH3DTA4oFQDhPaJgHxxQZoqHh.jpg",
+        "actores": ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Maggie Gyllenhaal", "Gary Oldman", "Michael Caine", "Morgan Freeman"],
+        "escritores": ["Jonathan Nolan", "Christopher Nolan"],
+        "anio": 2008
+    },
+    {
+        "titulo": "Justice League",
+        "descripcion": "Miles de años atrás, en la antigüedad, Steppenwolf y su ejército de parademonios intentaron conquistar y rehacer la Tierra...",
+        "categoria": "Acción | Ciencia Ficción | Aventura",
+        "estudio": "DC",
+        "calificacion": "9.4",
+        "portada": "https://image.tmdb.org/t/p/original/lR11JiTpl76YNnH65pSVE1XSm8Q.jpg",
+        "actores": ["Ben Affleck", "Gal Gadot", "Jason Momoa", "Ezra Miller", "Ray Fisher", "Henry Cavill", "Amy Adams"],
+        "escritores": ["Chris Terrio", "Joss Whedon"],
+        "anio": 2017
+    },
+    {
+        "titulo": "Star Wars 7: El Despertar De La Fuerza",
+        "descripcion": "Hace mucho tiempo en una galaxia muy, muy lejana, Luke Skywalker ha desaparecido...",
+        "categoria": "Acción | Ciencia Ficción | Aventura",
+        "estudio": "Disney",
+        "calificacion": "9.9",
+        "portada": "https://image.tmdb.org/t/p/original/tnBvD3IRx3lOPTzkdPKUC4XgXB8.jpg",
+        "actores": ["Daisy Ridley", "John Boyega", "Adam Driver", "Harrison Ford", "Carrie Fisher", "Oscar Isaac", "Lupita Nyong'o"],
+        "escritores": ["J.J. Abrams", "Lawrence Kasdan"],
+        "anio": 2015
+    },
+    {
+        "titulo": "Star Wars 8: Los Ultimos Jedi",
+        "descripcion": "Hace mucho tiempo en una galaxia muy, muy lejana, la PRIMERA ORDEN impera...",
+        "categoria": "Acción | Ciencia Ficción | Aventura",
+        "estudio": "Disney",
+        "calificacion": "9.7",
+        "portada": "https://image.tmdb.org/t/p/original/96FO2Z7cAB2tFNHXWS2igeWbkhM.jpg",
+        "actores": ["Mark Hamill", "Carrie Fisher", "Daisy Ridley", "Adam Driver", "John Boyega", "Oscar Isaac", "Kelly Marie Tran", "Laura Dern"],
+        "escritores": ["Rian Johnson"],
+        "anio": 2017
+    },
+    {
+        "titulo": "The Matrix",
+        "descripcion": "Un hacker conocido como Neo descubre que su realidad no es lo que parece y es invitado a unirse a una rebelión...",
+        "categoria": "Acción | Ciencia Ficción",
+        "estudio": "Warner Bros",
+        "calificacion": "9.8",
+        "portada": "https://image.tmdb.org/t/p/original/plYYSxZ9Wdq4thyVSkhJjbjYtVG.jpg",
+        "actores": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss", "Hugo Weaving", "Joe Pantoliano"],
+        "escritores": ["Lana Wachowski", "Lilly Wachowski"],
+        "anio": 1999
+    }
+]

@@ -1,9 +1,8 @@
 from PySide6.QtCore import Signal, Qt
 from PySide6.QtWidgets import QMainWindow, QMessageBox, QListWidgetItem, QCompleter
-from vista.windows import Ui_MainWindow
-from vista.descripcion_de_pelicula import VentanaEmergentePelicula
-from modelo.funciones_utiles import buscar_peliculas_por_titulo, buscar_peliculas_por_actores, obtener_actores_unicos, cargar_catalogo_desde_json
-
+from App_Peliculas.vista.windows import Ui_MainWindow
+from App_Peliculas.vista.descripcion_de_pelicula import DescripcionPelicula
+from App_Peliculas.controlador.gestor_peliculas import GestorPeliculas
 
 class Ventanana(QMainWindow):
     boton_buscar_por_descripcion = Signal(str)
@@ -13,31 +12,22 @@ class Ventanana(QMainWindow):
         super(Ventanana, self).__init__()
         self.__ui = Ui_MainWindow()
         self.__ui.setupUi(self)
-
-        self.__catalogo = cargar_catalogo_desde_json('recursos/peliculas.json')
-
-        self.__actores_unicos = obtener_actores_unicos(self.__catalogo)
-
-        self.autocompletar(self.__ui.actor, self.__actores_unicos)
-        self.autocompletar(self.__ui.actor2, self.__actores_unicos)
-
-        self.autocompletar(self.__ui.barra_de_busqueda, [pelicula.name for pelicula in self.__catalogo])
-
+        self.__controlador = GestorPeliculas('recursos/peliculas.json')
+        self.__actores_unicos = self.__controlador.obtener_actores()
+        self.__autocompletar(self.__ui.actor, self.__actores_unicos)
+        self.__autocompletar(self.__ui.actor2, self.__actores_unicos)
+        self.__autocompletar(self.__ui.barra_de_busqueda, [pelicula.mostrar_detalles()["titulo"] for pelicula in self.__controlador.obtener_catalogo()])
         self.__ui.boton_cambiar_pestania1.clicked.connect(self.cambiar_a_pestania2)
         self.__ui.boton_cambiar_pestania2.clicked.connect(self.cambiar_a_pestania1)
-
         self.__ui.boton_buscar_por_descripcion.clicked.connect(self.enviar_busqueda_por_titulo)
         self.__ui.boton_buscar_por_actores.clicked.connect(self.enviar_busqueda_por_actores)
-
         self.__ui.tabWidget.setCurrentIndex(0)
 
-
-
-
-    def autocompletar(self, widget, items):
+    def __autocompletar(self, widget, items):
         completar = QCompleter(items, self)
         completar.setCaseSensitivity(Qt.CaseInsensitive)
         widget.setCompleter(completar)
+
     def cambiar_a_pestania1(self):
         self.__ui.tabWidget.setCurrentIndex(0)
 
@@ -49,7 +39,7 @@ class Ventanana(QMainWindow):
         if not titulo:
             QMessageBox.warning(self, "Error", "Por favor, ingrese un título para buscar.")
             return
-        peliculas = buscar_peliculas_por_titulo(self.__catalogo, titulo)
+        peliculas = self.__controlador.buscar_por_titulo(titulo)
         if peliculas:
             self.mostrar_resultados_peliculas(self.__ui.lista_de_peliculas1, peliculas)
         else:
@@ -64,21 +54,21 @@ class Ventanana(QMainWindow):
         if not actor1 or not actor2:
             QMessageBox.warning(self, "Error", "Por favor, seleccione dos actores para buscar.")
             return
-        peliculas = buscar_peliculas_por_actores(self.__catalogo, actor1, actor2)
+        peliculas = self.__controlador.buscar_por_actores(actor1, actor2)
         if peliculas:
             self.mostrar_resultados_peliculas(self.__ui.lista_de_peliculas_actores, peliculas)
         else:
-            QMessageBox.information(self, "Sin Resultados")
+            QMessageBox.information(self, "Sin Resultados", "No se encontraron películas con esos actores.")
+
     def mostrar_resultados_peliculas(self, list_widget, peliculas):
         list_widget.clear()
         for pelicula in peliculas:
-            item = QListWidgetItem(pelicula.name)
+            item = QListWidgetItem(pelicula.mostrar_detalles()["titulo"])
             list_widget.addItem(item)
             item.setData(Qt.UserRole, pelicula)
-
         list_widget.itemDoubleClicked.connect(self.mostrar_detalles_pelicula)
 
     def mostrar_detalles_pelicula(self, item):
         pelicula = item.data(Qt.UserRole)
-        dialog = VentanaEmergentePelicula(pelicula)
-        dialog.exec_()
+        dialog = DescripcionPelicula(pelicula)
+        dialog.exec()
