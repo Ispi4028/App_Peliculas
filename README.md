@@ -1,4 +1,4 @@
-# Instrucciones para el Compilado del Archivo .ui
+# Instrucciones para el Compilado del Archivo .ui y .qrc
 
 Para asegurarse de que todos los recursos se carguen correctamente en la aplicación, debes seguir estos pasos:
 
