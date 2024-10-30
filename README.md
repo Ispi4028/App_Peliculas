@@ -14,9 +14,14 @@ from App_Peliculas.recursos.img import recursos_rc
 
 Generar un compilado de recursos.qrc (llamese recursos_rc para tener continuidad). debe de compilarse dentro del directorio 'img' para que sea exitosa la compilación
 
-## Comandos para compilar el .ui y .qrc
+## Comandos para compilar el .ui
 
 ```bash
-pyside6-uic windows.ui -o windows.py 
+pyside6-uic windows.ui -o windows.py  
+```
+
+## Comando para compilar el .qrc
+
+```bash
 pyside6-rcc -o recursos.qrc recursos.py 
 ```
