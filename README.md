@@ -5,7 +5,7 @@ Si alguien más necesita instalar las mismas dependencias, puede hacerlo ejecuta
 pip install -r requirements.txt
 ```
 
-# Instrucciones para el Compilado del Archivo .ui y .qrc (proseguir si no se encuentra los compilados)
+# Instrucciones para el Compilado del Archivo .ui y .qrc (proseguir si no se encuentran los compilados)
 
 Para asegurarse de que todos los recursos se carguen correctamente en la aplicación, debes seguir estos pasos:
 
