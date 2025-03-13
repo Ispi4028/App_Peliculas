@@ -1,8 +1,15 @@
-# Instrucciones para el Compilado del Archivo .ui y .qrc
+# Usar el archivo requirements.txt en otro entorno
+Si alguien más necesita instalar las mismas dependencias, puede hacerlo ejecutando:
+
+```bash
+pip install -r requirements.txt
+```
+
+# Instrucciones para el Compilado del Archivo .ui y .qrc (proseguir si no se encuentra los compilados)
 
 Para asegurarse de que todos los recursos se carguen correctamente en la aplicación, debes seguir estos pasos:
 
-## Paso 1: Incluir recursos_rc en el compilado del .ui
+## Paso 1: Crear el compilado de "windows.ui"
 
 En el compilado que se genere del archivo `.ui` (llamese 'windows', para evitar incompatibilidad), añade la siguiente línea al archivo:
 
