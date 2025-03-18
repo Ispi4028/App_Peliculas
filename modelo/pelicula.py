@@ -12,13 +12,13 @@ class Pelicula:
 
     def mostrar_detalles(self):
         return {
-            "titulo": self.__titulo,
-            "descripcion": self.__descripcion,
-            "categoria": self.__categoria,
-            "estudio": self.__estudio,
-            "calificacion": self.__calificacion,
-            "portada": self.__portada,
-            "actores": self.__actores,
-            "escritores": self.__escritores,
-            "anio": self.__anio
+            "titulo": self.__titulo or 'Desconocido',
+            "descripcion": self.__descripcion or 'Sin descripción',
+            "categoria": self.__categoria or 'Desconocido',
+            "estudio": self.__estudio or 'Desconocido',
+            "calificacion": self.__calificacion or '0.0',
+            "portada": self.__portada or '',
+            "actores": self.__actores or ['Desconocido'],
+            "escritores": self.__escritores or ['Desconocido'],
+            "anio": self.__anio or 'Desconocido'
         }
